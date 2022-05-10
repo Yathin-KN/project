@@ -1,0 +1,76 @@
+.count
+{
+    width: 100px;
+    height: 10px;
+    
+}
+
+.part
+{
+    
+    visibility: hidden;
+}
+
+.cont
+{
+  background-color: white;
+  padding: 5px;
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-left: -12px;
+}
+
+button
+{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: rgb(255, 162, 162);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    height: 20px;
+    width: 20px;
+    margin: 2px;
+}
+
+@media all and (max-width: 600px)
+{
+    .count
+{
+    width: 100px;
+    height: 10px;
+    
+}
+
+.cont
+{
+  background-color: white;
+  padding: 5px;
+  width: 80px;
+  margin: 0px 3px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  /* margin-left: -12px; */
+}
+
+button
+{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: rgb(255, 162, 162);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    height: 20px;
+    width: 20px;
+    margin: 2px;
+}
+}
+
+.check
+{
+    background-color: black;
+    height: 30px;
+    width: 30px;
+}
